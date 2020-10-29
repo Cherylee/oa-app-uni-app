@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "招标信息",
+  "usingComponents": {
+    "uni-pagination": "/components/uni-pagination/uni-pagination"
+  }
+}

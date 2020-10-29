@@ -1,0 +1,29 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSize": "26",
+        "redDot": false,
+        "fontSrc": "/static/uni.ttf",
+        "width": "40px"
+      },
+      {
+        "text": "",
+        "fontSize": "22",
+        "redDot": true,
+        "fontSrc": "/static/uni.ttf"
+      }
+    ]
+  },
+  "usingComponents": {
+    "media-item": "/pages/main/news-item",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-drawer": "/components/uni-drawer/uni-drawer",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}

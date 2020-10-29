@@ -1,0 +1,42 @@
+
+.detail-box {
+	padding-top: 50rpx;
+}
+.borrowtitle {
+	font-size: 28rpx;
+	background: #F8F8F8;
+	text-align: center;
+	border-bottom: 1rpx solid #CCCCCC;
+	padding: 20rpx;
+}
+.borrow {
+	margin-bottom: 20rpx;
+}
+.borrowbtn {
+	margin: 0 auto;
+}
+.borrowBox {
+	margin: 0 auto;
+}
+.borrowitem {
+	border-bottom: 1rpx solid #e2e2e2;
+	padding: 20rpx 20rpx;
+	background: #F8F8F8;
+}
+.detail-text {
+	display: block;
+}
+.detail-text1{
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.text-box {
+	padding: 0 10rpx 50rpx 10rpx;
+	word-wrap: break-word;
+	word-break: normal;
+}
+.file-text{
+	width: 280rpx;display: block;overflow: hidden;text-overflow:ellipsis;
+	white-space: nowrap;
+}
+

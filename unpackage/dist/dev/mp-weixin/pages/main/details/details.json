@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "详情",
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-details": "/components/nui-details/nui-details"
+  }
+}

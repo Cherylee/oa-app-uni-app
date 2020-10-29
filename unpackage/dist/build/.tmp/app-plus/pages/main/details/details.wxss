@@ -1,0 +1,83 @@
+
+.image {
+	width:200rpx;
+	margin:40rpx 0;
+}
+.processList-box{
+	padding: 30px 0;
+}
+button {
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+}
+.button-sp-area {
+	margin: 0 auto;
+	width: 61%;
+}
+.mini-btn {
+	margin-right: 10rpx;
+}
+/* 提示窗口 */
+.uni-tip {
+		
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		
+		padding: 15px;
+		width: 300px;
+		background-color: #fff;
+		border-radius: 10px;
+}
+.uni-tip-title {
+		text-align: center;
+		font-weight: bold;
+		font-size: 16px;
+		color: #333;
+}
+.uni-tip-content {
+		/* padding: 15px;
+*/
+		font-size: 14px;
+		color: #666;
+}
+.uni-tip-group-button {
+		
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		margin-top: 20px;
+}
+.uni-tip-button {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		text-align: center;
+		font-size: 14px;
+		color: #3b4144;
+}
+.title {
+		padding: 10rpx 25rpx;
+}
+.uni-icon-clear,
+	.uni-icon-eye {
+		color: #999;
+}
+.uni-input{
+		background: #F7F7F7;
+}
+

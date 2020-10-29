@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/user/user",
+    "pages/main/details/details",
+    "pages/start/start",
+    "pages/send/send",
+    "pages/work/work",
+    "pages/clock/clock",
+    "pages/setting/setting",
+    "pages/settingList/settingList"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/oa",
+      "pages": [
+        "outgoing/outgoing",
+        "leave/leave",
+        "travel/travel",
+        "supplyCard/supplyCard",
+        "overtime/overtime",
+        "reimbursement/reimbursement",
+        "reimbursement/borrowMoney/borrowMoney",
+        "purchase/purchase",
+        "sealApply/sealApply",
+        "carApply/carApply"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0faeff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#0faeff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "待办",
+        "iconPath": "static/img/icon1.png",
+        "selectedIconPath": "static/img/icon1_.png"
+      },
+      {
+        "pagePath": "pages/start/start",
+        "text": "我发起的",
+        "iconPath": "static/img/icon2.png",
+        "selectedIconPath": "static/img/icon2_.png"
+      },
+      {
+        "pagePath": "pages/work/work",
+        "text": "工作台",
+        "iconPath": "static/img/icon4.png",
+        "selectedIconPath": "static/img/icon4_.png"
+      },
+      {
+        "pagePath": "pages/clock/clock",
+        "text": "打卡",
+        "iconPath": "static/img/icon5.png",
+        "selectedIconPath": "static/img/icon5_.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置信息"
+    }
+  },
+  "usingComponents": {}
+}

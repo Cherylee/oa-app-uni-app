@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "m-input": "/components/m-input"
+  }
+}

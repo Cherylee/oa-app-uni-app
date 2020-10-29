@@ -1,0 +1,314 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+	{
+	    "path": "pages/index/index",
+	    "style": {
+	        "navigationBarTitleText": "公司",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+			// "app-plus": {
+			// 	"titleNView": {
+			// 		"buttons": [{
+			// 					"text": "我的",
+			// 					"fontSize": "26",
+			// 					"redDot": false,
+			// 					"fontSrc": "/static/uni.ttf",
+			// 					"text": "\ue100",
+			// 					"width": "40px",
+			// 					"color":"#0faeff"
+			// 				}
+			// 				// ,
+			// 				// {
+			// 				// 	"text": "消息",
+			// 				// 	"fontSize": "22",
+			// 				// 	"redDot": true,
+			// 				// 	"fontSrc": "/static/uni.ttf",
+			// 				// 	"text": "\ue263",
+			// 				// 	"color":"#0faeff"
+			// 				// }
+			// 		]
+			// 	}
+			// }
+	    }
+	},
+	{
+	    "path": "pages/main/main",
+	    "style": {
+	        "navigationBarTitleText": "",
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"app-plus": {
+				"titleNView": {
+					"buttons": [{
+								"text": "我的",
+								"fontSize": "26",
+								"redDot": false,
+								"fontSrc": "/static/uni.ttf",
+								"text": "\ue100",
+								"width": "40px",
+								"color":"#0faeff"
+							}
+							// ,
+							// {
+							// 	"text": "消息",
+							// 	"fontSize": "22",
+							// 	"redDot": true,
+							// 	"fontSrc": "/static/uni.ttf",
+							// 	"text": "\ue263",
+							// 	"color":"#0faeff"
+							// }
+					]
+				}
+			}
+	    }
+	},
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+				
+            }
+        }, {
+            "path": "pages/reg/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        }, {
+            "path": "pages/user/user",
+			"style": {
+			    "navigationBarTitleText": "我的"
+			}
+            
+        }, {
+            "path": "pages/main/details/details",
+            "style": {
+                "navigationBarTitleText": "详情"
+            }
+        }, {
+            "path": "pages/start/start",
+            "style": {
+            	"navigationBarTitleText": "我发起的",
+            	"navigationBarBackgroundColor": "#FFFFFF",
+            	"navigationBarTextStyle": "black"
+            	
+            }
+        }, {
+            "path": "pages/send/send",
+            "style": {
+                "navigationBarTitleText": "抄送"
+            }
+        }, {
+            "path": "pages/work/work",
+            "style": {
+                "navigationBarTitleText": "施工单位办公管理系统",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+            }
+        }, {
+            "path": "pages/clock/clock",
+            "style": {
+                "navigationBarTitleText": "打卡",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        }, {
+            "path": "pages/setting/setting",
+            "style": {
+                "navigationBarTitleText": "配置",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        }, {
+            "path": "pages/settingList/settingList",
+            "style": {
+                "navigationBarTitleText": "配置列表",
+                "navigationBarBackgroundColor": "#FFFFFF",
+                "navigationBarTextStyle": "black"
+            }
+        }
+        
+    ],
+	"subPackages": [{
+			"root": "pages/oa",
+			"pages": [{
+					"path": "outgoing/outgoing",
+					"style": {
+						"navigationBarTitleText": "发起外出申请"
+					}
+				},{
+					"path": "leave/leave",
+					"style": {
+						"navigationBarTitleText": "发起请假申请"
+					}
+				},{
+					"path": "travel/travel",
+					"style": {
+						"navigationBarTitleText": "发起出差申请"
+					}
+				},{
+					"path": "supplyCard/supplyCard",
+					"style": {
+						"navigationBarTitleText": "发起补卡申请"
+					}
+				},{
+					"path": "overtime/overtime",
+					"style": {
+						"navigationBarTitleText": "发起加班申请"
+					}
+				},{
+					"path": "reimbursement/reimbursement",
+					"style": {
+						"navigationBarTitleText": "发起报销申请"
+					}
+				},{
+					"path": "reimbursement/borrowMoney/borrowMoney",
+					"style": {
+						"navigationBarTitleText": "选择借款单"
+					}
+				},{
+					"path": "purchase/purchase",
+					"style": {
+						"navigationBarTitleText": "采购申请"
+					}
+				},{
+					"path": "sealApply/sealApply",
+					"style": {
+						"navigationBarTitleText": "用印申请"
+				    }
+				},{
+					"path": "carApply/carApply",
+					"style": {
+						"navigationBarTitleText": "用车申请"
+				    }
+				},{
+					"path":"tenderAnment/tenderAnment",
+					"style":{
+						"navigationBarTitleText":"投标公告"
+					}
+				},{
+					"path":"tenderAnment/tenderContent/tenderContent",
+					"style":{
+						"navigationBarTitleText":"投标详情"
+					}
+				},{
+					"path":"tenderAnment/tenderContent/tenderWebview",
+					"style":{
+						"navigationBarTitleText":"投标公示网站"
+					}
+				},{
+					"path":"loan/loan",
+					"style":{
+						"navigationBarTitleText":"借款申请"
+					}
+				},
+				{
+					"path":"bond/bond",
+					"style":{
+						"navigationBarTitleText":"申请保证金"
+					}
+				}
+				,{
+					"path": "building/building",
+					"style": {
+						"navigationBarTitleText": "网站建设中"
+				    }
+				},{
+					"path": "sysProPayment/sysProPayment",
+					"style": {
+						"navigationBarTitleText": "项目付款"
+				    }
+				},{
+					"path": "oaPayment/oaPayment",
+					"style": {
+						"navigationBarTitleText": "财务付款"
+				    }
+				},{
+					"path": "sysProRepairMoney/sysProRepairMoney",
+					"style": {
+						"navigationBarTitleText": "项目保修金"
+				    }
+				},{
+					"path": "sysProReceivables/sysProReceivables",
+					"style": {
+						"navigationBarTitleText": "项目收款"
+				    }
+				},{
+					"path": "oaReceivables/oaReceivables",
+					"style": {
+						"navigationBarTitleText": "OA收款"
+				    }
+				},{
+					"path": "constructInfo/constructInfo",
+					"style": {
+						"navigationBarTitleText": "招标信息"
+				    }
+				},{
+					"path": "carReminder/carReminder",
+					"style": {
+						"navigationBarTitleText": "用车提醒"
+				    }
+				},{
+					"path": "tender/tender",
+					"style": {
+						"navigationBarTitleText": "投标申请"
+				    }
+				},{
+					"path": "tender/tender",
+					"style": {
+						"navigationBarTitleText": "投标申请"
+				    }
+				},{
+					"path": "constructInfoAdd/constructInfoAdd",
+					"style": {
+						"navigationBarTitleText": "添加招标信息"
+				    }
+				}]
+			}
+	],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0faeff",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "首页",
+            "iconPath": "static/img/icon3.png",
+            "selectedIconPath": "static/img/icon3_.png"
+        }, {
+            "pagePath": "pages/main/main",
+            "text": "待办",
+            "iconPath": "static/img/icon1.png",
+            "selectedIconPath": "static/img/icon1_.png"
+        }, {
+            "pagePath": "pages/start/start",
+            "text": "我发起的",
+            "iconPath": "static/img/icon2.png",
+            "selectedIconPath": "static/img/icon2_.png"
+        }/* , {
+            "pagePath": "pages/message/message",
+            "text": "消息",
+            "iconPath": "static/img/icon3.png",
+            "selectedIconPath": "static/img/icon3_.png"
+        } */, {
+            "pagePath": "pages/work/work",
+            "text": "工作台",
+            "iconPath": "static/img/icon4.png",
+            "selectedIconPath": "static/img/icon4_.png"
+        }, {
+            "pagePath": "pages/clock/clock",
+            "text": "打卡",
+            "iconPath": "static/img/icon5.png",
+            "selectedIconPath": "static/img/icon5_.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0faeff",
+        "backgroundColor": "#FFFFFF"
+    }
+}

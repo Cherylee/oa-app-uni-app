@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps"
+  }
+}

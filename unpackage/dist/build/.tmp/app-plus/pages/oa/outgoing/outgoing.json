@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "发起外出申请",
+  "usingComponents": {
+    "e-picker": "/components/e-picker/e-picker"
+  }
+}

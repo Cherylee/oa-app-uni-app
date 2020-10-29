@@ -1,0 +1,17 @@
+
+.text {
+	padding: 0 20rpx;
+	text-align: center;
+	color: #777;
+	font-size: 24rpx;
+}
+.rediu{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+	text-align: center;
+}
+.color{
+	background: #1AAD19;
+}
+

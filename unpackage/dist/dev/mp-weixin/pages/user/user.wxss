@@ -1,0 +1,11 @@
+
+.content-box-text{
+	display: block;
+	line-height: inherit;
+	padding: 20rpx 30rpx;
+	color: #888888;
+}
+.text{
+	color: #333333;
+}
+

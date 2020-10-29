@@ -1,0 +1,1 @@
+<view class="d-picker"><picker class="picker" mode="multiSelector" value="{{multiIndex}}" range="{{multiArray}}" data-event-opts="{{[['columnchange',[['bindMultiPickerColumnChange',['$event']]]]]}}" bindcolumnchange="__e"><view>{{multiArray[0][multiIndex[0]]+"，"+multiArray[1][multiIndex[1]]+"，"+multiArray[2][multiIndex[2]]}}</view></picker></view>

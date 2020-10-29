@@ -1,0 +1,29 @@
+
+.col1{
+	padding: 25rpx 35rpx 0 35rpx;
+	font-size: 32rpx;
+}
+.col2{
+	padding: 15rpx 35rpx;
+	background-color: #F8F8F8;
+	color: #6D6D72;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.picker{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+}
+.hidden{
+	display: none;
+}
+.uni-list-cell {
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start
+}
+.btnBox{
+	text-align: center;
+	padding-top: 38rpx;
+}
+

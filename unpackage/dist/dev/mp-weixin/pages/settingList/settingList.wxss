@@ -1,0 +1,17 @@
+
+.uni-list-cell{
+	padding: 10rpx 20rpx;
+}
+.uni-media-list-text-bottom {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+

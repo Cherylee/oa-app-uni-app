@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "借款申请",
+  "usingComponents": {
+    "d-picker": "/components/d-picker/d-picker",
+    "e-picker": "/components/e-picker/e-picker",
+    "uni-uploader": "/components/uni-uploader/uni-uploader",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-relation-popup": "/components/uni-relation-popup/uni-relation-popup",
+    "uni-process": "/components/uni-processList/nui-processList",
+    "upload": "/components/uni-uploader/uni-uploader"
+  }
+}

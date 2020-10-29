@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发起外出申请",
+  "usingComponents": {
+    "d-picker": "/components/d-picker/d-picker",
+    "e-picker": "/components/e-picker/e-picker",
+    "uni-uploader": "/components/uni-uploader/uni-uploader",
+    "uni-process": "/components/uni-processList/nui-processList",
+    "upload": "/components/uni-uploader/uni-uploader"
+  }
+}

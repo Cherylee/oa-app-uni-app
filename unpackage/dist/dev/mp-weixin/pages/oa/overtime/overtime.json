@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "发起加班申请",
+  "usingComponents": {
+    "e-picker": "/components/e-picker/e-picker",
+    "uni-process": "/components/uni-processList/nui-processList"
+  }
+}

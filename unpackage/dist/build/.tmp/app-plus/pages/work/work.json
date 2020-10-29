@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "工作台",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item"
+  }
+}

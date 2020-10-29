@@ -1,0 +1,1 @@
+<view class="uni-process"><view class="processList-box"><view class="example-body"><uni-steps vue-id="710de864-1" options="{{processList}}" active-color="#333333" active="{{active}}" direction="column" bind:__l="__l"></uni-steps></view></view></view>

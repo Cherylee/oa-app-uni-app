@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "投标详情",
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps"
+  }
+}

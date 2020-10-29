@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "popup-list-content": "/components/uni-relation-popup/popup-list-content/popup-list-content"
+  }
+}

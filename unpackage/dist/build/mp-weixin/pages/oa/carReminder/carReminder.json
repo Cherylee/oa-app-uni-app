@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "用车提醒",
+  "usingComponents": {
+    "user-picker": "/components/user-picker/user-picker"
+  }
+}
